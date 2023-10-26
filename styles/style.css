@@ -64,7 +64,7 @@ li{
     float: left;
 }
 #main{
-    height: 1000px;
+    height: 2000px;
     width: auto;
 }
 #section2{
@@ -168,11 +168,7 @@ margin-left: 700px;
   height: 400px;
 
 }
-#div2{
-  background-color: rgb(150, 147, 147);
-  height: 400px;
 
-}
 #div3{
   background-color: rgb(34, 185, 160);
   height: 400px;
@@ -205,4 +201,62 @@ height: 150px;
   width: 200px;
   height: 150px;
 }
+/*--------------------------------------------*/
+#div2{
+  background-color: rgb(150, 147, 147);
+  height: 900px;
+
+}
+#div2 img{
+  text-align: center;
+  width: 130px;
+  height: 80px;
+  border-radius: 5px;
+  margin-left: 15%;
+}
+#div2 h6,h5{
+  text-align: right;
+  direction: rtl;
+  font-weight: bolder;
+}
+#div2 #lilistdiv2{
+  list-style-type: disc;
+  font-size: 12px;
+  text-align: right;
+  direction: rtl;
+  padding-right: 2px;
+  margin-right: 4px;
+  line-height: 30px;
+}
+#imgdiv3{
+  position: absolute;
+  z-index: 30;
+  margin-top: 60px;
+  margin-left: 10px;
+
+}
+#pimgdiv2{
+color: gray;
+  position: absolute;
+  font-weight:bold;
+  font-size: 10px;
+  margin-top: 200px;
+  margin-left: 70px;
+  z-index: 50;
+}
+#txtimgdiv2{
+  position: absolute;
+  z-index: 1000;
+  list-style-type: disc;
+  font-size:12px;
+  text-align: right;
+  direction: rtl;
+  padding-right: 2px;
+  line-height: 30px;
+  font-weight: bolder;
+;
+
+}
+
+
 
