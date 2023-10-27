@@ -1,225 +1,260 @@
-body{
+body {
   position: relative;
 }
-header{
+
+header {
   position: absolute;
   z-index: 9000;
   position: fixed;
 }
 
-a{
-    color: black;
-    text-decoration: none;
-}
-a:hover{
-    color: red;
-}
-li{
-    list-style-type: none;
-}
-#icon{position: absolute;
-    width: 50px;
-    height: 50px;
-   margin-left: 1300px;
-   margin-top: 30px;
-   position: fixed;
-   z-index: 5000;
-}
-#icontext{
-    position: absolute;
-    text-align: right;
-    direction: rtl;
-    margin-left: 1140px;
-    margin-top: 35px;
-    font-weight: bolder;
-    font-size: 15px;
-    position: fixed;
-    z-index: 5000;
-    
-}
-#menuup{
-    color: black;
-    font-size: 12px;
+a {
+  color: black;
+  text-decoration: none;
 }
 
-.nav-link:hover{
- text-decoration: underline 1px red;
- text-decoration-thickness: 5px;
-}
-.dropdown{
-  
-    z-index: 1000;
-}
-.dnmenu1{
-    display: none;
-}
-#dns:hover .dnmenu1{
-    display: block;
-}
-#stylemenu{
-    text-decoration: none;
-    text-align: right;
-    font-weight: bolder;
-    color: blue;
-    float: left;
-}
-#main{
-    height: 2000px;
-    width: auto;
-}
-#section2{
-
-    height:40px;
-}
-#pfooter{
-    font-size: 10px;
-    color: white;
-    font-weight: bolder;
-    float:right;
-    font-size: 10px;
-    padding-top: 12px;
-    text-align: right;
-}
-.club{
-    font-weight: bolder;
-text-align: center;
-padding-top: 25px;
-}
-#section1{
-    background-color: blueviolet;
-    height: 390px;
+a:hover {
+  color: red;
 
 }
-.hrfooter{
-    margin-top: 350px;
-    height: 2px;
-    position: absolute;
-    width: 600px;
-    
+
+li {
+  list-style-type: none;
 }
-#hrfooter1{
+
+#icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left: 1300px;
+  margin-top: 30px;
+  position: fixed;
+  z-index: 5000;
+}
+
+#icontext {
+  position: absolute;
+  text-align: right;
+  direction: rtl;
+  margin-left: 1140px;
+  margin-top: 35px;
+  font-weight: bolder;
+  font-size: 15px;
+  position: fixed;
+  z-index: 5000;
 
 }
-#hrfooter2{
 
-margin-left: 700px;
+#menuup {
+  color: black;
+  font-size: 12px;
 }
-#imgfooter{
-    position: absolute;
-    width: 70px;
-    height: 80px;
-   margin-left: 617px;
-   margin-top: 310px;
-   z-index: 3000;
-}
-#row1{
 
-    height:80px;
+.nav-link:hover {
+  text-decoration: underline 1px red;
+  text-decoration-thickness: 5px;
 }
+
+.dropdown {
+
+  z-index: 1000;
+}
+
+.dnmenu1 {
+  display: none;
+}
+
+#dns:hover .dnmenu1 {
+  display: block;
+}
+
+#stylemenu {
+  text-decoration: none;
+  text-align: right;
+  font-weight: bolder;
+  color: blue;
+  float: left;
+}
+
+#main {
+  height: 3000px;
+  width: auto;
+}
+
+#section2 {
+
+  height: 40px;
+}
+
+#pfooter {
+  font-size: 10px;
+  color: white;
+  font-weight: bolder;
+  float: right;
+  font-size: 10px;
+  padding-top: 12px;
+  text-align: right;
+}
+
+.club {
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 25px;
+}
+
+#section1 {
+  background-color: blueviolet;
+  height: 390px;
+
+}
+
+.hrfooter {
+  margin-top: 350px;
+  height: 2px;
+  position: absolute;
+  width: 600px;
+
+}
+
+#hrfooter1 {}
+
+#hrfooter2 {
+
+  margin-left: 700px;
+}
+
+#imgfooter {
+  position: absolute;
+  width: 70px;
+  height: 80px;
+  margin-left: 617px;
+  margin-top: 310px;
+  z-index: 3000;
+}
+
+#row1 {
+
+  height: 80px;
+}
+
 .fa-telegram:before {
-    content: "\f2c6";
-  }
-  .fa-youtube:before {
-    content: "\f167";
-  }
-  .fa-instagram:before {
-    content: "\f16d";
-  }
+  content: "\f2c6";
+}
+
+.fa-youtube:before {
+  content: "\f167";
+}
+
+.fa-instagram:before {
+  content: "\f16d";
+}
 
 .fa-rss:before {
   content: "\f16d";
 }
-  a{
-    text-decoration: none;
-  }
-  .row2{
-    height:100px;
-    margin-top: 20px;
-    position: absolute;
-    z-index: 30;
 
-  }
-  .row2-1{
-   
-    height: 100px;
-    margin-top:200px;
-  }
-  .colfooter{
-    width: 130px;
-    margin-left: 90px;
-  }
-  .ulfooter{
-   
-    padding-left: 50px;
-  }
-.pcfooter{
-    font-size: 15px;
+a {
+  text-decoration: none;
 }
-.ulnavfooter{
+
+.row2 {
+  height: 100px;
+  margin-top: 20px;
+  position: absolute;
+  z-index: 30;
+
+}
+
+.row2-1 {
+
+  height: 100px;
+  margin-top: 200px;
+}
+
+.colfooter {
+  width: 130px;
+  margin-left: 90px;
+}
+
+.ulfooter {
+
+  padding-left: 50px;
+}
+
+.pcfooter {
+  font-size: 15px;
+}
+
+.ulnavfooter {
   margin-left: 260px;
 }
-.ulnavfooter li{
+
+.ulnavfooter li {
   padding-left: 15px;
 }
 
-#div1{
+#div1 {
 
   background-color: rgb(223, 47, 47);
   height: 400px;
 
 }
 
-#div3{
-  background-color: rgb(34, 185, 160);
-  height: 400px;
 
-}
-#imgpart1{
-margin-top: 60px;
-margin-left: 200px;
+#imgpart1 {
+  margin-top: 60px;
+  margin-left: 200px;
   width: 300px;
   height: 300px;
   border-radius: 10px;
 }
-.news1{
+
+.news1 {
   width: 300px;
   height: 175px;
   position: absolute;
- margin: 20px;
+  margin: 20px;
 }
-#imgpart2-down{
 
-margin-left: 420px;
-margin-top:35px;
-width: 200px;
-height: 150px;
-}
-#imgpart2-up{
+#imgpart2-down {
 
   margin-left: 420px;
-  margin-top:30px;
+  margin-top: 35px;
   width: 200px;
   height: 150px;
 }
+
+#imgpart2-up {
+
+  margin-left: 420px;
+  margin-top: 30px;
+  width: 200px;
+  height: 150px;
+}
+
 /*--------------------------------------------*/
-#div2{
-  background-color: rgb(150, 147, 147);
-  height: 900px;
+#div2 {
+
+  height: 1000px;
 
 }
-#div2 img{
+
+#div2 img {
   text-align: center;
   width: 130px;
   height: 80px;
   border-radius: 5px;
   margin-left: 15%;
 }
-#div2 h6,h5{
+
+#div2 h6,
+h5 {
   text-align: right;
   direction: rtl;
   font-weight: bolder;
 }
-#div2 #lilistdiv2{
+
+#div2 #lilistdiv2 {
   list-style-type: disc;
   font-size: 12px;
   text-align: right;
@@ -228,35 +263,175 @@ height: 150px;
   margin-right: 4px;
   line-height: 30px;
 }
-#imgdiv3{
+
+#imgdiv3 {
   position: absolute;
   z-index: 30;
   margin-top: 60px;
   margin-left: 10px;
 
 }
-#pimgdiv2{
-color: gray;
+
+#pimgdiv2 {
+  color: gray;
   position: absolute;
-  font-weight:bold;
+  font-weight: bold;
   font-size: 10px;
   margin-top: 200px;
   margin-left: 70px;
   z-index: 50;
 }
-#txtimgdiv2{
+
+#txtimgdiv2 {
   position: absolute;
   z-index: 1000;
   list-style-type: disc;
-  font-size:12px;
+  font-size: 12px;
   text-align: right;
   direction: rtl;
   padding-right: 2px;
   line-height: 30px;
   font-weight: bolder;
-;
+  ;
 
 }
 
+#btnzirhi {
+  text-align: left;
+  background-color: rgb(214, 213, 212);
+  margin-right: 27px;
+}
+
+#btnzirhi:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/*-----------------div3---------------------------*/
+#div3 {
+  background-color: white;
+  height: 500px;
+  box-shadow: 5px 5px 5px 10px rgb(230, 223, 223);
+
+}
+
+#p1div3 span {
+
+  font-size: 13px;
+}
+
+#p1div3 {
+  background-color: rgb(214, 213, 212);
+  border-radius: 5px;
+  padding: 10px;
+
+}
+
+#imgpart3-down {
+
+  margin-left: 300px;
+  margin-top: 35px;
+  width: 200px;
+  height: 150px;
+}
+
+#imgpart3-up {
+
+  margin-left: 300px;
+  margin-top: 30px;
+  width: 200px;
+  height: 150px;
+}
+
+#imgpart3 {
+  margin-top: 60px;
+  margin-left: 7%;
+  width: 500px;
+  height: 250px;
+  border-radius: 10px;
+
+}
+
+.li2div3 {
+  margin-bottom: 20px;
+  list-style-type: none;
+  color: black;
+  font-size: 11px;
+  direction: rtl;
+  text-align: right;
+}
+
+/*-----------------div4---------------------------*/
+#div4 {
+  position: relative;
+  height: 600px;
+
+}
+
+#mosalas {
+  position: absolute;
+  width: 0px;
+  height: 300px;
+  left: 80px;
+  top: 80px;
+  border-left: 30px solid transparent;
+  border-top: 30px solid red;
+  border-right: 0px solid transparent;
+  border-bottom: 30px solid transparent;
+  transform: rotate(90deg);
+  margin-top: 1876.9px;
+  margin-left: 890px;
+}
+
+#liupdiv4 {
+  background-color: red;
+  height: 30px;
+  width: 150px;
+  font-size: 15px;
+  font-weight: bolder;
+  padding-right: 5px;
+}
+
+#liupdiv4-2 {
+  font-size: 10px;
+  font-weight: bolder;
+  position: absolute;
+  margin-top: -25px;
+  z-index: 9000;
+}
+
+/*-----------------div5---------------------------*/
+#div5 {
+  position: relative;
+  height: 200px;
 
 
+}
+
+#liupdiv5 {
+
+  font-size: 13px;
+  font-weight: bolder;
+  padding-right: 2px;
+  margin-left:1040px;
+}
+
+#liupdiv5-2 {
+  font-size: 10px;
+  font-weight: bolder;
+  position: absolute;
+  z-index: 9000;
+  margin-left:-1080px;
+  color: red;
+}
+#imgalbum{
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+#lialbum{
+  list-style-type: disc;
+  text-align: right;
+  direction: rtl;
+}

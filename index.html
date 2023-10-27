@@ -22,17 +22,28 @@
       margin: 0px;
       padding: 0px;
     }
+
+    .nav-item.dropdown:hover .dropdown-menu {
+      display: block;
+      /* Show the dropdown menu on hover */
+      width: 600px;
+      text-decoration: solid;
+      color: red;
+
+    }
+
+    .dropdown-menu {
+      margin-top: 0;
+      /* Adjust the dropdown menu position */
+    }
   </style>
 
 </head>
 
 <body>
   <header>
-
-    <img id="icon" src="pics/icon.png">
-    <p id="icontext">باشگاه خبرنگاران جوان</p>
-    <div class="dropdown">
-      <button type="button" style="position: fixed;" class="btn btn-sm text-body bg-light dropdown-toggle"
+    <div class="dropdown" style="position: fixed; position: relative;z-index: 9999;">
+      <button type="button" style="position: fixed;" class="btn btn-sm  bg-light dropdown-toggle"
         data-bs-toggle="dropdown">
         En
       </button>
@@ -42,55 +53,120 @@
         <li style="text-align: center;">english</li>
       </ul>
     </div>
-    <br><br>
-    <div class="container-fluid bg-light" style="position: fixed;">
-      <ul id="menuup" class="nav  bg-light text-dark">
-        <li id="dns" class="nav-item" class="linenuup" style="margin-left: 170px;">
-          <a class="nav-link text-dark " href="#">سیاسی</a>
-          <ul id="stylemenu" class="dnmenu1">
-            <li style="text-decoration: none;margin-left: 60px;z-index: 5000;">مجلس</li>
-            <li>دولت</li>
-            <li>احزاب</li>
-          </ul>
-        </li>
-        <li class="nav-item" class="a">
-          <a class="nav-link text-dark" href="#">بین المللی</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">ورزشی</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark " href="#">اجتماعی </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark " href="#">اقتصادی</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">فرهنگی</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark " href="#">فیلم و صوت </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">عکس </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">استان ها</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark " href="#">شهروند </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark " href="#">وبگردی</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">فرهنگی</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">افغانستان</a>
-        </li>
-      </ul>
-    </div>
+    <img id="icon" src="pics/icon.png">
+    <p id="icontext">باشگاه خبرنگاران جوان</p>
+    <nav style="height: 90px;padding-left: 500px;padding-top:70px;"
+      class="navbar navbar-expand-lg navbar-light bg-light  fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav  " style="margin-left: -100px;">
+          <li class="nav-item dropdown ">
+            <a style="font-size: 13px;    margin: 5px;
+                  color: black;
+                  text-decoration: none;" href="#">
+              افغانستان
+            </a>
+            <div class="dropdown-menu">
+              <a style="float: right;margin-left: 50%;font-size: 10px;" href="#"> 1</a>
+              <a style="float: left;margin-left: 40%;font-size: 10px;" href="#"> 1</a>
+              <br>
+              <a style="float: left;margin-left: 40%;text-align: left; font-size: 10px;" href="#"> 1</a>
+              <a style="float: right;margin-left: 50%;font-size: 10px;" href="#"> 1</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a style="font-size: 13px;" href="#">
+              افغانستان
+            </a>
+            <div class="dropdown-menu">
+              <a style="float: right;margin-left: 50%;font-size: 10px;" href="#"> 1</a>
+              <a style="float: left;margin-left: 40%;font-size: 10px;" href="#"> 1</a>
+              <br>
+              <a style="float: left;margin-left: 40%;text-align: left; font-size: 10px;" href="#"> 1</a>
+              <a style="float: right;margin-left: 50%;font-size: 10px;" href="#"> 1</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a style="font-size: 13px;" href="#">
+              افغانستان
+            </a>
+            <div class="dropdown-menu">
+              <a style="float: right;margin-left: 50%;font-size: 10px;" href="#"> 1</a>
+              <a style="float: left;margin-left: 40%;font-size: 10px;" href="#"> 1</a>
+              <br>
+              <a style="float: left;margin-left: 40%;text-align: left; font-size: 10px;" href="#"> 1</a>
+              <a style="float: right;margin-left: 50%;font-size: 10px;" href="#"> 1</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a style="font-size: 13px;" href="#">
+              افغانستان
+            </a>
+            <div class="dropdown-menu">
+              <a style="float: right;margin-left: 50%;font-size: 10px;" href="#"> 1</a>
+              <a style="float: left;margin-left: 40%;font-size: 10px;" href="#"> 1</a>
+              <br>
+              <a style="float: left;margin-left: 40%;text-align: left; font-size: 10px;" href="#"> 1</a>
+              <a style="float: right;margin-left: 50%;font-size: 10px;" href="#"> 1</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a style="font-size: 13px;" href="#">
+              افغانستان
+            </a>
+            <div class="dropdown-menu">
+              <a style="float: right;margin-left: 50%;font-size: 10px;" href="#"> 1</a>
+              <a style="float: left;margin-left: 40%;font-size: 10px;" href="#"> 1</a>
+              <br>
+              <a style="float: left;margin-left: 40%;text-align: left; font-size: 10px;" href="#"> 1</a>
+              <a style="float: right;margin-left: 50%;font-size: 10px;" href="#"> 1</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a style="font-size: 13px;" href="#">
+              افغانستان
+            </a>
+            <div class="dropdown-menu">
+              <a style="float: right;margin-left: 50%;font-size: 10px;" href="#"> 1</a>
+              <a style="float: left;margin-left: 40%;font-size: 10px;" href="#"> 1</a>
+              <br>
+              <a style="float: left;margin-left: 40%;text-align: left; font-size: 10px;" href="#"> 1</a>
+              <a style="float: right;margin-left: 50%;font-size: 10px;" href="#"> 1</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a style="font-size: 13px;" href="#">
+              افغانستان
+            </a>
+            <div class="dropdown-menu">
+              <a style="float: right;margin-left: 50%;font-size: 10px;" href="#"> 1</a>
+              <a style="float: left;margin-left: 40%;font-size: 10px;" href="#"> 1</a>
+              <br>
+              <a style="float: left;margin-left: 40%;text-align: left; font-size: 10px;" href="#"> 1</a>
+              <a style="float: right;margin-left: 50%;font-size: 10px;" href="#"> 1</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a style="font-size: 13px;" href="#">
+              افغانستان
+            </a>
+            <div class="dropdown-menu">
+              <a style="float: right;margin-left: 50%;font-size: 10px;" href="#"> 1</a>
+              <a style="float: left;margin-left: 40%;font-size: 10px;" href="#"> 1</a>
+              <br>
+              <a style="float: left;margin-left: 40%;text-align: left; font-size: 10px;" href="#"> 1</a>
+              <a style="float: right;margin-left: 50%;font-size: 10px;" href="#"> 1</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a style="font-size: 13px;" href="#">
+              افغانستان
+            </a>
+            <div class="dropdown-menu ">
+              <a style="float: right;margin-left: 50%;font-size: 10px;" href="#"> 1</a>
+              <a style="float: left;margin-left: 40%;font-size: 10px;" href="#"> 1</a>
+              <br>
+              <a style="float: left;margin-left: 40%;text-align: left; font-size: 10px;" href="#"> 1</a>
+              <a style="float: right;margin-left: 50%;font-size: 10px;" href="#"> 1</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
   <br><br> <br><br>
   <div id="main">
@@ -101,12 +177,16 @@
 
         <div style="height: auto;position: relative;" class=" col-6 bg-white text-dark">
           <div style="margin-top: 200px;" class=" col-3  bg-white text-dark news1">
-            <h3 style="text-align:right">سلام</h3>
+            <a href="#">
+              <h3 style="text-align:right">سلام</h3>
+            </a>
             <h5 style="text-align:right">سلام</h5>
           </div>
           <img id="imgpart2-up" src="pics/icon.png">
           <div style="margin-top: -160px; margin-left: 20px;" class=" col-3 bg-white text-dark news1">
-            <h3 id="jj" style="text-align:right">سلام</h3>
+            <a href="#">
+              <h3 id="jj" style="text-align:right">سلام</h3>
+            </a>
             <h5 style="text-align:right">سلام</h5>
           </div>
           <img id="imgpart2-down" src="pics/icon.png">
@@ -119,15 +199,15 @@
     </div>
     <!--بخش اول-->
     <!--بخش دوم-->
-    <div class="container-fluid" id="div2">
+    <div class=" bg-light container-fluid" id="div2">
       <div class="row pt-1">
-        <div class="col-3 bg-primary text-white">
+        <div class="col-3 bg-light text-white">
 
           <div class="container mt-2">
             <ul class="list-group">
-              <li class="list-group-item bg-light">
+              <li class="list-group-item" style="background-color: rgb(218, 218, 218);">
                 <ul>
-                  <li class="bg-light" style="font-size: 16px;font-weight: bolder" id="lilistdiv2">سوژه روز</li>
+                  <li style="font-size: 16px;font-weight: bolder" id="lilistdiv2">سوژه روز</li>
 
                 </ul>
               </li>
@@ -145,51 +225,51 @@
               <ul class="list-group">
                 <li style="height: 750px;" class="list-group-item">
                   <ul>
-                    <li style="font-size: 16px;font-weight: bolder" id="lilistdiv2">سوژه روز</li>
+                    <li style="font-size: 16px;font-weight: bolder;list-style-type: none;" id="lilistdiv2">سوژه روز</li>
                   </ul>
                   <hr style="margin-top:100px;">
                   <ul>
-                    <a style="color: gray;" href="#">
+                    <a href="#">
                       <li style="margin-bottom: 20px; margin-left: -14px;" id="txtimgdiv2"> حماس: ۳۵۰۰۰ حامی مسلح داریم
                       </li>
                     </a>
                     <br><br>
-                    <a style="color: gray;" href="#">
+                    <a href="#">
                       <li style="margin-bottom: 20px; margin-left: -14px;" id="txtimgdiv2"> حماس: ۳۵۰۰۰ حامی مسلح داریم
                       </li>
                     </a>
                     <br><br>
-                    <a style="color: gray;" href="#">
+                    <a href="#">
+                      <li style=" margin-bottom: 20px; margin-left: -14px;" id="txtimgdiv2"> حماس: ۳۵۰۰۰ حامی مسلح داریم
+                      </li>
+                    </a>
+                    <br><br>
+                    <a href="#">
                       <li style="margin-bottom: 20px; margin-left: -14px;" id="txtimgdiv2"> حماس: ۳۵۰۰۰ حامی مسلح داریم
                       </li>
                     </a>
                     <br><br>
-                    <a style="color: gray;" href="#">
+                    <a href="#">
                       <li style="margin-bottom: 20px; margin-left: -14px;" id="txtimgdiv2"> حماس: ۳۵۰۰۰ حامی مسلح داریم
                       </li>
                     </a>
                     <br><br>
-                    <a style="color: gray;" href="#">
+                    <a href="#">
                       <li style="margin-bottom: 20px; margin-left: -14px;" id="txtimgdiv2"> حماس: ۳۵۰۰۰ حامی مسلح داریم
                       </li>
                     </a>
                     <br><br>
-                    <a style="color: gray;" href="#">
+                    <a href="#">
                       <li style="margin-bottom: 20px; margin-left: -14px;" id="txtimgdiv2"> حماس: ۳۵۰۰۰ حامی مسلح داریم
                       </li>
                     </a>
                     <br><br>
-                    <a style="color: gray;" href="#">
+                    <a href="#">
                       <li style="margin-bottom: 20px; margin-left: -14px;" id="txtimgdiv2"> حماس: ۳۵۰۰۰ حامی مسلح داریم
                       </li>
                     </a>
                     <br><br>
-                    <a style="color: gray;" href="#">
-                      <li style="margin-bottom: 20px; margin-left: -14px;" id="txtimgdiv2"> حماس: ۳۵۰۰۰ حامی مسلح داریم
-                      </li>
-                    </a>
-                    <br><br>
-                   
+
                     <br><br>
                   </ul>
                 </li>
@@ -198,11 +278,13 @@
             </div>
           </div>
         </div>
-        <div class="col-3 bg-primary text-white">
+        <div class="col-3 bg-light text-white">
           <div class="container mt-2">
             <ul class="list-group">
-              <li style="font-size:17px;text-align: center;" class="list-group-item ">پربازدید ترین ها | پربحث ترین ها
-              </li>
+              <a href="#">
+                <li style="font-size:17px;text-align: center;" class="list-group-item ">پربازدید ترین ها | پربحث ترین ها
+                </li>
+              </a>
               <li class="list-group-item">
                 <ul>
                   <a href="#">
@@ -232,7 +314,7 @@
                   <a href="#">
                     <li id="lilistdiv2">دلیل درگیری</li>
                   </a>
-              
+
 
                 </ul>
               </li>
@@ -299,378 +381,537 @@
           </div>
         </div>
 
-        <div class="col-6 c bg-dark text-white">
+        <div class="col-6 c bg-light text-dark">
           <div class="container mt-3">
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
                 <div class="row pt-1">
-                  <div class="col-8 bg-primary text-white">
-                    <h5>hi</h5>
+                  <div class="col-8 bg-light text-dark">
+                    <a href="#">
+                      <h5>hi</h5>
+                    </a>
                     <h6>hi</h6>
                   </div>
-                  <div class="col-4 bg-dark text-white">
+                  <div class="col-4 bg-light text-dark">
                     <img src="pics/icon.png">
                   </div>
               </li>
               <li class="list-group-item">
                 <div class="row pt-1">
-                  <div class="col-8 bg-primary text-white">
-                    <h5>hi</h5>
+                  <div class="col-8 bg-light text-dark">
+                    <a href="#">
+                      <h5>hi</h5>
+                    </a>
                     <h6>hi</h6>
                   </div>
-                  <div class="col-4 bg-dark text-white">
+                  <div class="col-4 bg-light text-dark">
                     <img src="pics/icon.png">
                   </div>
               </li>
               <li class="list-group-item">
                 <div class="row pt-1">
-                  <div class="col-8 bg-primary text-white">
-                    <h5>hi</h5>
+                  <div class="col-8 bg-light text-dark">
+                    <a href="#">
+                      <h5>hi</h5>
+                    </a>
                     <h6>hi</h6>
                   </div>
-                  <div class="col-4 bg-dark text-white">
+                  <div class="col-4 bg-light text-dark">
                     <img src="pics/icon.png">
                   </div>
               </li>
               <li class="list-group-item">
                 <div class="row pt-1">
-                  <div class="col-8 bg-primary text-white">
-                    <h5>hi</h5>
+                  <div class="col-8 bg-light text-dark">
+                    <a href="#">
+                      <h5>hi</h5>
+                    </a>
                     <h6>hi</h6>
                   </div>
-                  <div class="col-4 bg-dark text-white">
+                  <div class="col-4 bg-light text-dark">
                     <img src="pics/icon.png">
                   </div>
               </li>
               <li class="list-group-item">
                 <div class="row pt-1">
-                  <div class="col-8 bg-primary text-white">
-                    <h5>hi</h5>
+                  <div class="col-8 bg-light text-dark">
+                    <a href="#">
+                      <h5>hi</h5>
+                    </a>
                     <h6>hi</h6>
                   </div>
-                  <div class="col-4 bg-dark text-white">
-                    <img src="pics/icon.png">
-                  </div>
-              </li><li class="list-group-item">
-                <div class="row pt-1">
-                  <div class="col-8 bg-primary text-white">
-                    <h5>hi</h5>
-                    <h6>hi</h6>
-                  </div>
-                  <div class="col-4 bg-dark text-white">
+                  <div class="col-4 bg-light text-dark">
                     <img src="pics/icon.png">
                   </div>
               </li>
               <li class="list-group-item">
                 <div class="row pt-1">
-                  <div class="col-8 bg-primary text-white">
-                    <h5>hi</h5>
+                  <div class="col-8 bg-light text-dark">
+                    <a href="#">
+                      <h5>hi</h5>
+                    </a>
                     <h6>hi</h6>
                   </div>
-                  <div class="col-4 bg-dark text-white">
+                  <div class="col-4 bg-light text-dark">
                     <img src="pics/icon.png">
                   </div>
-                  <li class="list-group-item">
-                    <div class="row pt-1">
-                      <div class="col-8 bg-primary text-white">
-                        <h5>hi</h5>
-                        <h6>hi</h6>
-                      </div>
-                      <div class="col-4 bg-dark text-white">
-                        <img src="pics/icon.png">
-                      </div>
-                      <li class="list-group-item">
-                        <div class="row pt-1">
-                          <div class="col-8 bg-primary text-white">
-                            <h5>hi</h5>
-                            <h6>hi</h6>
-                          </div>
-                          <div class="col-4 bg-dark text-white">
-                            <img src="pics/icon.png">
-                          </div>
               </li>
+              <li class="list-group-item">
+                <div class="row pt-1">
+                  <div class="col-8 bg-light text-dark">
+                    <a href="#">
+                      <h5>hi</h5>
+                    </a>
+                    <h6>hi</h6>
+                  </div>
+                  <div class="col-4 bg-light text-dark">
+                    <img src="pics/icon.png">
+                  </div>
+              <li class="list-group-item">
+                <div class="row pt-1">
+                  <div class="col-8 bg-light text-dark">
+                    <a href="#">
+                      <h5>hi</h5>
+                    </a>
+                    <h6>hi</h6>
+                  </div>
+                  <div class="col-4 bg-light text-dark">
+                    <img src="pics/icon.png">
+                  </div>
+              <li class="list-group-item">
+                <div class="row pt-1">
+                  <div class="col-8 bg-light text-dark">
+                    <a href="#">
+                      <h5>hi</h5>
+                    </a>
+                    <h6>hi</h6>
+                  </div>
+                  <div class="col-4 bg-light text-dark">
+                    <img src="pics/icon.png">
+                  </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a href="#"> <button id="btnzirhi" type="button" class=" float-end col-6 btn ">آرشیو</button></a>
+      </div>
+    </div>
+    <!--بخش سوم-->
+    <div class="container shadow" id="div3">
+      <br>
+      <p id="p1div3" class="col-12  text-dark">
+        <a href="#"><span class="float-star">مشاهده همه ویدیو ها</span></a>
+        <span class="float-end text-danger">تلدیو</span>
+        <br>
+
+      <div class="container" id="div1">
+        <div class="row">
+          <div style="height: 400px;" class=" col-6 bg-white text-light">
+            <img id="imgpart3" src="pics/icon.png">
+            <a href="#">
+              <li style="margin-bottom: 20px; margin-left: 13%" id="txtimgdiv2"> تمرین و بازی جالبی که به دقت کودکان در
+                نوشتن کمک می‌کند + فیلم
+              </li>
+            </a>
+            <br>
+            <li class="li2div3 float-end" id="txtimgdiv2 ">بازی‌های مناسبی برای تقویت توجه و تمرکز کودکان وجود دارد که
+              به کمک آنها می‌شود تمرکز کودک را بالا برد.
+            </li>
+
+          </div>
+
+          <div style="height: auto;position: relative;" class=" col-6 bg-white text-dark">
+            <div style="margin-top: 200px;" class=" col-3  bg-white text-dark news1">
+              <a href="#">
+                <h3 style="text-align:right">سلام</h3>
+              </a>
+              <h5 style="text-align:right">سلام</h5>
+            </div>
+            <img id="imgpart3-up" src="pics/icon.png">
+            <div style="margin-top: -160px; margin-left: 20px;" class=" col-3 bg-white text-dark news1">
+              <a href="#">
+                <h3 id="jj" style="text-align:right">سلام</h3>
+              </a>
+              <h5 style="text-align:right">سلام</h5>
+            </div>
+            <img id="imgpart3-down" src="pics/icon.png">
+          </div>
+
+        </div>
+      </div>
+      </p>
+    </div>
+    <!--بخش سوم-->
+    <!--بخش چهارم-->
+    <br><br><br><br>
+    <div class="container">
+      <ul class="nav nav-tabs">
+        <p id="mosalas"></p>
+        <li id="liupdiv4" style="color: white;margin-left: 91.5%; text-align: right;" class="float-end">چند رسانه ای
+        </li>
+        <a href="#">
+          <li id="liupdiv4-2">مشاهده همه ویدیو ها</li>
+        </a>
+      </ul>
+      <br>
+      <div class="container bg-light shadow" id="div4">
+        <div class="container" id="div1-div4">
+          <div style="position: absolute; margin-right: 13px;margin-top: 30px;" class="row">
+            <div style="height: auto;position: relative;" class=" col-6 bg-li text-dark">
+              <div style="margin-top: 200px;" class=" col-3  bg-light text-dark news1">
+                <a href="#">
+                  <h3 style="text-align:right">سلام</h3>
+                </a>
+                <h5 style="text-align:right">سلام</h5>
+              </div>
+              <img id="imgpart2-up" src="pics/icon.png">
+              <div style="margin-top: 200px;" class=" col-3  bg-light text-dark news1">
+                <a href="#">
+                  <h3 style="text-align:right">سلام</h3>
+                </a>
+                <h5 style="text-align:right">سلام</h5>
+              </div>
+              <img id="imgpart2-up" src="pics/icon.png">
+              <div style="margin-top: -160px; margin-left: 20px;" class=" col-3 bg-light text-dark news1">
+                <a href="#">
+                  <h3 id="jj" style="text-align:right">سلام</h3>
+                </a>
+
+                <h5 style="text-align:right">سلام</h5>
+              </div>
+              <img id="imgpart2-down" src="pics/icon.png">
+            </div>
+            <div style="height: 400px;" class=" col-6 bg-light text-light">
+              <img id="imgpart1" src="pics/icon.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+    <div class="container">
+      <ul class="nav nav-tabs">
+        <i style="position: absolute; margin-left: 1100px;" class="fa fa-image rounded-circle"></i>
+        <li id="liupdiv5" style="color: black; text-align: right;" class="float-end"> عکس روز
+        </li>
+        <a href="#">
+          <li id="liupdiv5-2">مشاهده همه تصاویر</li>
+        </a>
+      </ul>
+    </div>
+    <br>
+    <!--بخش چهارم-->
+    <!--بخش پنجم-->
+    <div id="div5" class="container">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg bg-white text-white">
+            <img id="imgalbum" style="margin-left:20px;" src="pics/icon.png">
+            <ul id="ulalbum">
+              <a href="#">
+                <li class="me-5" id="lialbum">دلیل درگیری</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col-lg bg-white text-white">
+            <img id="imgalbum" style="margin-left:20px;" src="pics/icon.png">
+            <ul id="ulalbum">
+              <a href="#">
+                <li class="me-5" id="lialbum">دلیل درگیری</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col-lg bg-white text-white">
+            <img id="imgalbum" style="margin-left:20px;" src="pics/icon.png">
+            <ul id="ulalbum">
+              <a href="#">
+                <li class="me-5" id="lialbum">دلیل درگیری</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col-lg bg-white text-white">
+            <img id="imgalbum" style="margin-left:20px;" src="pics/icon.png">
+            <ul id="ulalbum">
+              <a href="#">
+                <li class="me-5" id="lialbum">دلیل درگیری</li>
+              </a>
             </ul>
           </div>
         </div>
       </div>
     </div>
-    <!--بخش دوم-->
-    <div class="container-fluid" id="div3"></div>
+    <!--بخش پنجم-->
 
 
+    <footer style="position: relative;">
+      ​<nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <form class="d-flex">
+            <button style="border: none;" type="submit"><i class="fa fa-search"></i></button>
+            <input style="border: none;text-align: right; font-size: 10px;margin-left: 150px;"
+              class="form-control me-1  bg-light" type="text" placeholder="جست و جو در ارشیو |">
+          </form>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto ulnavfooter">
 
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Link <i class="fa fa-television"
+                    aria-hidden="true"></i></a>
+              </li>
 
+            </ul>
 
-  </div>
+          </div>
+        </div>
+      </nav>
 
-
-
-
-  <footer style="position: relative;">
-    ​<nav class="navbar navbar-expand-sm navbar-light bg-light">
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <form class="d-flex">
-          <button style="border: none;" type="submit"><i class="fa fa-search"></i></button>
-          <input style="border: none;text-align: right; font-size: 10px;margin-left: 150px;"
-            class="form-control me-1  bg-light" type="text" placeholder="جست و جو در ارشیو |">
-        </form>
-        <div class="collapse navbar-collapse" id="mynavbar">
-          <ul class="navbar-nav me-auto ulnavfooter">
-
-            <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="javascript:void(0)">Link <i class="fa fa-television" aria-hidden="true"></i></a>
-            </li>
-
-          </ul>
-
+        <div class="row row2 row2-1">
+          <div class="col bg-white colfooter" style="text-align: right;">سیاسی
+            <br>
+            <ul class="ulfooter">
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col bg-white colfooter" style="text-align: right;">بین الملل
+            <br>
+            <ul class="ulfooter">
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col bg-white colfooter" style="text-align: right;">ورزشی
+            <br>
+            <ul class="ulfooter">
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col bg-white colfooter" style="text-align: right;">اجتماعی
+            <br>
+            <ul class="ulfooter">
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col bg-white colfooter" style="text-align: right;">اقتصادی
+            <br>
+            <ul class="ulfooter">
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col bg-white colfooter" style="text-align: right;">فرهنگی هنری
+            <br>
+            <ul class="ulfooter">
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div class="row row2 row2-2">
+          <div class="col bg-white colfooter" style="text-align: right;">علمی پزشکی
+            <br>
+            <ul class="ulfooter">
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col bg-white colfooter" style="text-align: right;" ‌>فیلم و صوت
+            <br>
+            <ul class="ulfooter">
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col bg-white colfooter pr-8 ulax" style="text-align: right;">عکس
+            <br>
+            <ul class="ulfooter ">
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col bg-white colfooter" style="text-align: right;">استان ها
+            <br>
+            <ul class="ulfooter">
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col bg-white colfooter" style="text-align: right;">شهروند خبرنگار
+            <br>
+            <ul class="ulfooter">
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+            </ul>
+          </div>
+          <div class="col bg-white colfooter" style="text-align: right;">وب گردی
+            <br>
+            <ul class="ulfooter">
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+              <a href="#">
+                <li>مجلس</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div id="section1" class="col-sm-12 bg-white" style="position:relative;">
+            <img id="imgfooter" src="pics/icon.png">
+            <hr class="hrfooter" id="hrfooter1" class="container-fluid bg-dark ">
+            <hr class="hrfooter" id="hrfooter2" class="container-fluid bg-dark ">
+          </div>
         </div>
       </div>
-    </nav>
+      <div class="row" id="row1">
+        <div class="col-sm-4 bg-white text-dark club">young jurnalists club</div>
+        <div class="col-sm-4 bg-white text-dark club pcfooter">THE WORLD'S LARGEST <span class="persion">PERSIAN
+          </span>LANGUAGE NEWS AGENCY</div>
+        <div class="col-sm-4 bg-white text-dark club">
+          <a href="#" target="_blank">
+            <i class="fab fa-telegram"></i>
+          </a>
+          <a href="#" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" target="_blank">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+      </div>
 
-    <div class="container-fluid">
-      <div class="row row2 row2-1">
-        <div class="col bg-white colfooter" style="text-align: right;">سیاسی
-          <br>
-          <ul class="ulfooter">
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-          </ul>
-        </div>
-        <div class="col bg-white colfooter" style="text-align: right;">بین الملل
-          <br>
-          <ul class="ulfooter">
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-          </ul>
-        </div>
-        <div class="col bg-white colfooter" style="text-align: right;">ورزشی
-          <br>
-          <ul class="ulfooter">
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-          </ul>
-        </div>
-        <div class="col bg-white colfooter" style="text-align: right;">اجتماعی
-          <br>
-          <ul class="ulfooter">
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-          </ul>
-        </div>
-        <div class="col bg-white colfooter" style="text-align: right;">اقتصادی
-          <br>
-          <ul class="ulfooter">
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-          </ul>
-        </div>
-        <div class="col bg-white colfooter" style="text-align: right;">فرهنگی هنری
-          <br>
-          <ul class="ulfooter">
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-          </ul>
-        </div>
-      </div>
-      <div class="row row2 row2-2">
-        <div class="col bg-white colfooter" style="text-align: right;">علمی پزشکی
-          <br>
-          <ul class="ulfooter">
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-          </ul>
-        </div>
-        <div class="col bg-white colfooter" style="text-align: right;" ‌>فیلم و صوت
-          <br>
-          <ul class="ulfooter">
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-          </ul>
-        </div>
-        <div class="col bg-white colfooter pr-8 ulax" style="text-align: right;">عکس
-          <br>
-          <ul class="ulfooter ">
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-          </ul>
-        </div>
-        <div class="col bg-white colfooter" style="text-align: right;">استان ها
-          <br>
-          <ul class="ulfooter">
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-          </ul>
-        </div>
-        <div class="col bg-white colfooter" style="text-align: right;">شهروند خبرنگار
-          <br>
-          <ul class="ulfooter">
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-          </ul>
-        </div>
-        <div class="col bg-white colfooter" style="text-align: right;">وب گردی
-          <br>
-          <ul class="ulfooter">
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-            <a href="#">
-              <li>مجلس</li>
-            </a>
-          </ul>
-        </div>
-      </div>
       <div class="row">
-        <div id="section1" class="col-sm-12 bg-white" style="position:relative;">
-          <img id="imgfooter" src="pics/icon.png">
-          <hr class="hrfooter" id="hrfooter1" class="container-fluid bg-dark ">
-          <hr class="hrfooter" id="hrfooter2" class="container-fluid bg-dark ">
+        <div class="col-sm-6 bg-dark text-white" id="pfooter" style="text-align: left;"> طراحی وتولید توسط ایران سامانه
         </div>
+        <div class="col-sm-6 bg-dark text-white" id="pfooter"> کلیه حقوق این سایت متعلق به باشگاه خبرنگاران جوان بوده و
+          استفاده از مطالب آن با ذکر منبع بلامانع است.</div>
       </div>
-    </div>
-    <div class="row" id="row1">
-      <div class="col-sm-4 bg-white text-dark club">young jurnalists club</div>
-      <div class="col-sm-4 bg-white text-dark club pcfooter">THE WORLD'S LARGEST <span class="persion">PERSIAN
-        </span>LANGUAGE NEWS AGENCY</div>
-      <div class="col-sm-4 bg-white text-dark club">
-        <a href="#" target="_blank">
-          <i class="fab fa-telegram"></i>
-        </a>
-        <a href="#" target="_blank">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="#" target="_blank">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="#" target="_blank">
-          <i class="fab fa-youtube"></i>
-        </a>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-6 bg-dark text-white" id="pfooter" style="text-align: left;"> طراحی وتولید توسط ایران سامانه
-      </div>
-      <div class="col-sm-6 bg-dark text-white" id="pfooter"> کلیه حقوق این سایت متعلق به باشگاه خبرنگاران جوان بوده و
-        استفاده از مطالب آن با ذکر منبع بلامانع است.</div>
-    </div>
-  </footer>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
